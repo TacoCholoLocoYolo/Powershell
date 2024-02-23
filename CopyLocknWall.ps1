@@ -1,7 +1,7 @@
-﻿$url = "https://inprocorp.sharepoint.com/sites/sps_intune/shared%20documents/w11%20wallpapers/wall.jpg"
-$outputPath = "C:\Windows\wall.jpg"
+﻿$url = "yoursharpointsite/sites/page/example/example.jpg"
+$outputPath = "C:\Windows\example.jpg"
 Invoke-WebRequest -Uri $url -OutFile $outputPath
 
-$url = "https://inprocorp.sharepoint.com/sites/sps_intune/shared%20documents/w11%20wallpapers/lock.jpg"
-$outputPath = "C:\Windows\lock.jpg"
+$url = "yoursharpointsite/sites/page/example/example.jpg
+$outputPath = "C:\Windows\example.jpg"
 Invoke-WebRequest -Uri $url -OutFile $outputPath
